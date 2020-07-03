@@ -14,7 +14,7 @@ function App() {
         aumentar= { ()=> setCount(count + 1) }
         disminuir= { ()=> setCount(count - 1) }
       /> {/* Con estas funciones agregas y quitas */}
-      <inout value = {count} />
+      <input value = {count} />
     </div> 
   );
 }
