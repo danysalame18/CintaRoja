@@ -17,6 +17,11 @@ function Header() {
                   CREATE
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to ="/done">
+                  DONE
+                </Link>
+              </li>
           </ul>
             </nav>
         </header>
