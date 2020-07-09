@@ -18,11 +18,6 @@ function Home() {
         console.log(err);
       });
   }, []);
-// const [todos, setTodos] = useState ([]);
-// useEffect(()=>{
-//   let data = getData()
-//   setTodos(data)
-// }, [])
 
     return (
     <>
@@ -38,6 +33,7 @@ function Home() {
               priority = {todo.priority} 
               name = {todo.name} 
               done = {todo.done} 
+              _id = {todo._id}
               key = {todo._id}
             />
             : undefined
@@ -50,7 +46,8 @@ function Home() {
             <ToDoCard 
               priority = {todo.priority} 
               name = {todo.name} 
-              done = {todo.done} 
+              done = {todo.done}
+              _id = {todo._id}
               key = {todo._id}
             />
             : undefined
@@ -63,7 +60,8 @@ function Home() {
             <ToDoCard 
               priority = {todo.priority} 
               name = {todo.name} 
-              done = {todo.done} 
+              done = {todo.done}
+              _id = {todo._id}
               key = {todo._id}
             />
             : undefined
