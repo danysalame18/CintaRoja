@@ -4,6 +4,7 @@ import SWApi from './Components/SWApi/SWApi';
 import 'bootstrap/dist/css/bootstrap.css';
 import LosProps from './Components/Props/LosProps';
 import Imagen from './Components/Imagen/Imagen';
+import Prueba from './Components/Prueba/Prueba'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       // ]}
       />
       <Imagen />
+      <Prueba />
     </div>
   );
 }
