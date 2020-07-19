@@ -5,22 +5,10 @@
         "Pass": "1234",
         "2FA": "1234",
         "coins":[
-            {"name":"BTC",  "id":"90",      "amount":10},
-            {"name":"ETH",  "id":"80",      "amount":20},
-            {"name":"XRP",  "id":"58",      "amount":30},
-            {"name":"USDT", "id":"518",     "amount":40},
+            {"name":"BTC",  "id":"90",      "amount":2},
+            {"name":"ETH",  "id":"80",      "amount":15},
+            {"name":"XRP",  "id":"58",      "amount":18000},
+            {"name":"USDT", "id":"518",     "amount":6000},
             {"name":"BCH",  "id":"2321",    "amount":50}]
-    },
-    {
-        "id": "1",
-        "Nombre": "Jose",
-        "Pass": "1234",
-        "2FA": "1234",
-        "coins":[
-            {"name":"BTC",  "id":"90",      "amount":100},
-            {"name":"ETH",  "id":"80",      "amount":200},
-            {"name":"XRP",  "id":"58",      "amount":300},
-            {"name":"USDT", "id":"518",     "amount":400},
-            {"name":"BCH",  "id":"2321",    "amount":500}]
-    }    
+    }
 ]
